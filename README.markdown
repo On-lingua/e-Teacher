@@ -4,7 +4,7 @@ This is a WordPress theme built by My language Skills for local e-Teacher to pro
 
 Special hat tip to the team at Twitter for creating [Bootstrap](http://twitter.github.com/bootstrap), a framework this theme relies on for its functionality. 
 
-Demo: http://wordpress
+Demo: http://———
 
 ## Installation & Basic Setup
 
@@ -17,16 +17,16 @@ This repository includes all the theme files necessary to hit the ground running
 ### Responsive design
 This theme is completely responsive, using a wide range of resolutions to ensure your site is optimized for most devices, from mobile to desktop.
 
-### Sermon management
-Create sermon posts, group them into series and include related media like video, audio and notes.
+### Course management
+Create course posts, group them into series and include related media like video, audio and notes.
 
 ### Staff profiles
 Give everyone on your staff a personal profile page with contact details, including links to their social networks.
 
 ### Service times
-List all your church services for easy display on the homepage.
+List all your scholar services for easy display on the homepage.
 
-### Bible references
+————### Bible references————————————————————————————————————————
 This theme integrates Logos Bible Software's database of scripture, meaning any verse mentioned in a page or post will automatically include a tooltip of the full text with a link to the full version for easy citations. 
 
 ### Homepage slider
@@ -55,7 +55,7 @@ Pure vanilla CSS is nice, but if you're into preprocessors, we've packaged in [a
 
 ## Installation & Basic Setup
 
-Clone the git repo - `git@github.com:foursquarechurch/Foursquare-WordPress-Theme.git` - or [download the latest release](http://www.foursquare.org/wptheme).
+Clone the git repo - `git@github.com:On-lingua/e-Teacher.git` - or [download the latest release](http://www.on-lingua.com).
 
 This theme requires WordPress 3.0 or above. [Visit the WordPress website](http://codex.wordpress.org/Installing_WordPress) for instructions on how to run WordPress if you are just getting started.
 
@@ -69,7 +69,7 @@ This theme allows you to adjust the design and choose from several settings to t
 
 Yes, it's true that this theme looks pretty awesome out of the box, but there are a few things you will want to customize to meet your needs.
 
-### Foursquare Theme Options  
+### e-Teacher Theme Options  
 Navigate to this tab to customize the following settings:
 
 * Background (choose from a variety of different textures)
@@ -105,12 +105,13 @@ In addition, this theme includes two custom plugins:
 If you haven't heard of these before, you're going to love them. These snippets of text are like shortcuts for adding neat little treats on your site and this theme comes packed with shortcodes for everything from buttons and columns to videos and PayPal payments. There's simply to many to note here, so head on over to [the demo site](http://foursquare.bethouawesome.com/shortcodes) to see them in action.
 
 ## Using LESS
-The Foursquare WordPress Theme is made with LESS, a dynamic stylesheet language that makes writing CSS fun and ridiculously easy. Want to have at it? All the files are included here, so go for it. Remember, this theme is based off [Twitter Bootstrap](http://twitter.github.com/bootstrap/) which is built with LESS at its core, but you can overwrite those styles using the include foursquare.less file.
+The e-Teacher WordPress Theme is made with LESS, a dynamic stylesheet language that makes writing CSS fun and ridiculously easy. Want to have at it? All the files are included here, so go for it. Remember, this theme is based off [Twitter Bootstrap](http://twitter.github.com/bootstrap/) which is built with LESS at its core, but you can overwrite those styles using the include foursquare.less file.
 
 Not into CSS preprocessors? All the CSS files are included as well, so you're covered as well! Or, simply edit the style.css file to override any the default theme styles.
 
 ## Credits
 
+* Wordpress theme - [The Foursquare Church] (http://www.foursquare.org/wordpress)
 * Bootstrap - [Twitter](http://twitter.github.com/bootstrap/)
 * Homepage Slider - Based on [Anthony Ferguson's](http://www.fergusweb.net/software/flexslider/) rendition of [Flexslider](http://flex.madebymufffin.com/)
 * Modernizr - [modernizr.com](http://modernizr.com)
@@ -118,10 +119,10 @@ Not into CSS preprocessors? All the CSS files are included as well, so you're co
 * TGM-Plugin-Activation Function - [Thomas Griffin](https://github.com/thomasgriffin/TGM-Plugin-Activation)
 
 ## Copyright & License
-Copyright 2012 The Foursquare Church
+Copyright 2012 My Language Skills
 
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use this work except in compliance with the License. You may obtain a copy of the License in the LICENSE file, or at:
+Licensed under the Mozilla License, Version 2.0 (the "License"); you may not use this work except in compliance with the License. You may obtain a copy of the License in the LICENSE file, or at:
 
-http://www.apache.org/licenses/LICENSE-2.0]http://www.apache.org/licenses/LICENSE-2.0
+http://www.mozilla.org/MPL/2.0
 
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
