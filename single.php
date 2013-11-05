@@ -3,8 +3,8 @@
  * The Template for displaying all single posts.
  *
  * @package WordPress
- * @subpackage Foursquare Two
- * @since Foursquare Two 1.0
+ * @subpackage e-Teacher
+ * @since e-Teacher 2.0
  */
 
 get_header(); ?>
