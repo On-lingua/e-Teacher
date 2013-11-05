@@ -4,6 +4,8 @@ This is a WordPress theme built by My language Skills for local e-Teacher to pro
 
 Special hat tip to the team at Twitter for creating [Bootstrap](http://twitter.github.com/bootstrap), a framework this theme relies on for its functionality. 
 
+And special thanks for The Foursquare Church and the base theme for these development.
+
 Demo: http://———
 
 ## Installation & Basic Setup
