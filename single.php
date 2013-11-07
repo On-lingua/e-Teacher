@@ -3,7 +3,7 @@
  * The Template for displaying all single posts.
  *
  * @package WordPress
- * @subpackage e-Teacher
+ * @subpackage e-Teacher 
  * @since e-Teacher 2.0
  */
 
@@ -14,7 +14,7 @@ get_header(); ?>
 		<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 			<article id="post">
 				<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
-				<h2><small><?php foursquare_posted_on(); ?></small></h2>
+				<h2><small><?php eTeacher_posted_on(); ?></small></h2>
 				<hr />
 				<?php
 				if(has_post_thumbnail()) :?>
@@ -32,21 +32,21 @@ get_header(); ?>
 				<?php endif;?>
 				<?php the_content(); ?>
 			</article><!--end post-->
-			<?php wp_link_pages( array( 'before' => '' . __( 'Pages:', 'foursquare' ), 'after' => '' ) ); ?>
+			<?php wp_link_pages( array( 'before' => '' . __( 'Pages:', 'eTeacher' ), 'after' => '' ) ); ?>
 			<p class="tags">
-				<?php foursquare_posted_in(); ?>
-				<?php edit_post_link( __( 'Edit', 'foursquare' ), '', '' ); ?>
+				<?php eTeacher_posted_in(); ?>
+				<?php edit_post_link( __( 'Edit', 'eTeacher' ), '', '' ); ?>
     		</p>
     		<hr />
 			<div class="bottom-nav">
 				<?php if (get_adjacent_post(false, '', true)): // if there are older posts ?>
     				<div class="btn btn-primary pull-left">
-    					<?php previous_post_link( '%link', '' . _x( '« ', 'Older Post', 'foursquare' ) . 'Older Post' ); ?>
+    					<?php previous_post_link( '%link', '' . _x( '« ', 'Older Post', 'eTeacher' ) . 'Older Post' ); ?>
    					</div>
 				<?php endif; ?>
 				<?php if (get_adjacent_post(false, '', false)): // if there are newer posts ?>
     				<div class="btn btn-primary pull-right">
-    					<?php next_post_link( '%link', 'Newer Post ' . _x( ' »', 'Next post link', 'foursquare' ) . '' ); ?>
+    					<?php next_post_link( '%link', 'Newer Post ' . _x( ' »', 'Next post link', 'eTeacher' ) . '' ); ?>
     				</div> <!--end btn btn-primary-->
 				<?php endif; ?>
 			</div><!--end bottom-nav-->
