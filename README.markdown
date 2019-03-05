@@ -119,6 +119,8 @@ Not into CSS preprocessors? All the CSS files are included as well, so you're co
 * Modernizr - [modernizr.com](http://modernizr.com)
 * RefTagger - [Logos](http://www.logos.com/reftagger)
 * TGM-Plugin-Activation Function - [Thomas Griffin](https://github.com/thomasgriffin/TGM-Plugin-Activation)
+* Books for Languages [www.books4languages.comh] (https://books4languages.com)
+* Texbooks by Books for Languages [www.open.books4languages.comh] (https://open.books4languages.com)
 
 ## Copyright & License
 Copyright 2012 My Language Skills
